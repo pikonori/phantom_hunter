@@ -1,0 +1,44 @@
+phantomjs rasterize.js http://disp-pj-rese-sp02.njc-web.info/sp ~/Desktop/image1.png
+phantomjs rasterize.js http://disp-pj-rese-sp02.njc-web.info/company/information ~/Desktop/image2.png
+phantomjs rasterize.js http://disp-pj-rese-sp02.njc-web.info/contact ~/Desktop/image3.png
+phantomjs rasterize.js http://disp-pj-rese-sp02.njc-web.info/company/privacy_policy ~/Desktop/image4.png
+phantomjs rasterize.js http://disp-pj-rese-sp02.njc-web.info/rent_grouping/searchlist/6266 ~/Desktop/image5.png
+phantomjs rasterize.js http://disp-pj-rese-sp02.njc-web.info/sale_grouping/searchlist/6162 ~/Desktop/image6.png
+phantomjs rasterize.js http://disp-pj-rese-sp02.njc-web.info/rent_okiniiri ~/Desktop/image7.png
+phantomjs rasterize.js http://disp-pj-rese-sp02.njc-web.info/sale_okiniiri ~/Desktop/image8.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/type?cn[]=1&cn[]=2&cn[]=3" ~/Desktop/image9.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/ensen?cn[]=1&cn[]=2&cn[]=3" ~/Desktop/image10.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/eki?en%5B%5D=210&cn%5B%5D=1&cn%5B%5D=2&cn%5B%5D=3&from=ensen" ~/Desktop/image11.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/area?cn[]=1&cn[]=2&cn[]=3" ~/Desktop/image12.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/city?si%5B%5D=45202&cn%5B%5D=1&cn%5B%5D=2&cn%5B%5D=3&from=area" ~/Desktop/image13.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/syozai?cn[]=1&cn[]=2&cn[]=3" ~/Desktop/image14.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/school?cn[]=1&cn[]=2&cn[]=3" ~/Desktop/image15.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/smart_phone_map?cn[]=1&cn[]=2&cn[]=3" ~/Desktop/image16.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search" ~/Desktop/image17.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/searchlist" ~/Desktop/image18.png
+phantomjs rasterize.js "http://disp-pj-rese-sp02.njc-web.info/rent_search/detail/810063-9-%E7%A8%8E%E6%9C%89%E9%87%91%E9%A1%8D" ~/Desktop/image19.png
+
+
+
+
+
+
+ruby snap.rb http://disp-pj-rese-sp02.njc-web.info/sp
+ruby snap.rb http://disp-pj-rese-sp02.njc-web.info/company/information
+ruby snap.rb http://disp-pj-rese-sp02.njc-web.info/contact
+ruby snap.rb http://disp-pj-rese-sp02.njc-web.info/company/privacy_policy
+ruby snap.rb http://disp-pj-rese-sp02.njc-web.info/rent_grouping/searchlist/6266
+ruby snap.rb http://disp-pj-rese-sp02.njc-web.info/sale_grouping/searchlist/6162
+ruby snap.rb http://disp-pj-rese-sp02.njc-web.info/rent_okiniiri
+ruby snap.rb http://disp-pj-rese-sp02.njc-web.info/sale_okiniiri
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/type?cn[]=1&cn[]=2&cn[]=3"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/ensen?cn[]=1&cn[]=2&cn[]=3"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/eki?en%5B%5D=210&cn%5B%5D=1&cn%5B%5D=2&cn%5B%5D=3&from=ensen"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/area?cn[]=1&cn[]=2&cn[]=3"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/city?si%5B%5D=45202&cn%5B%5D=1&cn%5B%5D=2&cn%5B%5D=3&from=area"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/syozai?cn[]=1&cn[]=2&cn[]=3"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/school?cn[]=1&cn[]=2&cn[]=3"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/smart_phone_map?cn[]=1&cn[]=2&cn[]=3"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/searchlist"
+ruby snap.rb "http://disp-pj-rese-sp02.njc-web.info/rent_search/detail/810063-9-%E7%A8%8E%E6%9C%89%E9%87%91%E9%A1%8D"

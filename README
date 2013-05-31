@@ -1,0 +1,62 @@
+準備するもの
+phamtomjsの1.8以上
+imageMagick
+ruby 1.9.3
+bundler
+これぐらいで行けると思う。
+
+
+linux上でしか動作しないので（macだったら環境を簡単に作れます。Windowsの奴らはVMにLinux入れて下さい。）
+まずubuntuでも導入して下さい。
+
+まず、phamtomjsの導入方法
+(http://phantomjs.org/build.html)
+
+sudo apt-get update
+sudo apt-get install build-essential chrpath git-core libssl-dev libfontconfig1-dev
+git clone git://github.com/ariya/phantomjs.git
+cd phantomjs
+git checkout 1.9
+./build.sh
+
+ちなみにAWSのmicroでビルドしたら12時間ぐらいかかりました。
+覚悟しててください。
+
+出来たらパスを通しましょう
+emacs ~/.baschrc
+-> PATH=~/phantomjs/bin:$PATH
+-> export PATH
+echo $PATH
+phantomjs -v
+これでphantomjsのバージョンが見れればOK
+
+日本語フォントを入れないと行けないので
+sudo aptitude -y install fontconfig
+fc-list
+sudo aptitude -y install ttf-sazanami-gothic ttf-sazanami-mincho
+fc-list
+
+
+imageMagick
+sudo apt-get intall imagemagick
+だったはず
+
+ruby
+rubyはrvmを導入したほうが楽です。
+rubyのパッケージマネージャーです。
+(http://piko.hateblo.jp/entry/2013/03/13/111137)
+curl -L https://get.rvm.io | bash -s stable --ruby
+source ~/.rvm/scripts/rvm
+
+でrubyのバージョンを最新にシマス
+rvm list
+rvm install 2.0.0
+rvm use ruby-2.0.0
+ruby -v
+
+
+これで大体環境は揃います。
+
+後はコマンド叩いて動作させて下さい。
+オプションかとか全くやってないのでプログラムにベタ書きです。
+後々改善して行きましょう。
